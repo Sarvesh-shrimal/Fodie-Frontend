@@ -49,7 +49,7 @@ export function Login() {
       toast.error("Something went wrong");
     }
   };
-  console.log("hello")
+
   const handleSubmit = async (e: React.FormEvent) => {
     try {
       if (signup) {
